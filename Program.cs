@@ -187,7 +187,8 @@ namespace NinetiesTV
         // 23. Do the same as above, but put the word "and" between the second-to-last and last show name.
         static string AllNamesWithCommasPlsAnd(List<Show> shows)
         {
-            throw new NotImplementedException();
+            int listSze = shows.Count - 1;
+            return String.Join(", ", shows.Select(s => s.Name).Take(listSze).ToList()) + ", & " + $" {shows.Last().Name}";
         }
 
 
@@ -204,6 +205,8 @@ namespace NinetiesTV
         **************************************************************************************************/
 
         // 1. Return the genres of the shows that started in the 80s.
+
+        shows.Where(s => s.StartsWith< 1990);
         // 2. Print a unique list of geners.
         // 3. Print the years 1987 - 2018 along with the number of shows that started in each year (note many years will have zero shows)
         // 4. Assume each episode of a comedy is 22 minutes long and each episode of a show that isn't a comedy is 42 minutes. How long would it take to watch every episode of each show?
