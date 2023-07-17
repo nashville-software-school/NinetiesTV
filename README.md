@@ -33,16 +33,16 @@ You should take a look at the `Show` class though.
 
 ### The Exercise
 
-All code that you will write will be in the `Program` class. Take a look at this class. You'll see the code is broken into four sections.
+All code that you will write will be in `Program.cs` It is broken up into the following sections:
 
-1. The `Main` method contains code that:
+1. The first section contains code that:
 	* gets a `List<Show>`
 	* calls several methods that accept that list as an argument
 	* Prints the results of each method along with a header to describe the data that's being printed
 1. The main Exercises block. This is where you'll write your LINQ code
 1. A few challenges for you to try if you complete the rest of the exercises
-1. A few methods used for printing results
+1. A class used for printing results
 
-Your task is to read and understand the existing code in the `Program` class, and write code in each "Exercise" method that satisfies that method's comment.
+Your task is to read and understand the existing code in `Program.cs`, and write code in each "Exercise" method that satisfies that method's comment.
 
 > **NOTE:** Make sure you run the code regularly.
