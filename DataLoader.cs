@@ -14,7 +14,7 @@ You DO NOT need to understand this code.
 namespace NinetiesTV;
 public class DataLoader
 {
-    private static string _dataFilename = "data.csv";
+    private static string _dataFilename = "C:\\Users\\hsmit\\Workspace\\NSS\\Backend\\csharp\\NinetiesTV\\NinetiesTV\\data.csv";
     public static List<Show> GetShows()
     {
         using (TextReader textReader = new StreamReader(_dataFilename))
